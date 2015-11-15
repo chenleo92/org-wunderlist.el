@@ -21,7 +21,9 @@
 
 4. Click on  =SAVE=
 
-5. Record the Client ID and Client secret for setup.
+5. Click =Create Access Token=
+
+6. Record the Client ID and Client secret for setup.
 
 ** Setting example
 
@@ -29,8 +31,8 @@
 (require 'org-wunderlist)
 (setq org-wunderlist-client-id "your-client-id"
       org-wunderlist-token "your-token"
-      org-wunderlist-file  "~/.emacs.d/Wunderlist.org"
-      org-wunderlist-dir "~/.emacs.d/org-wunderlist/")
+      org-wunderlist-file  "~/.emacs.d/Wunderlist.org" ;file for the wunderlist items
+      org-wunderlist-dir "~/.emacs.d/org-wunderlist/") ;this includes icons
 #+end_src
 
 * Usage
